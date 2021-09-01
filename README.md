@@ -1,6 +1,6 @@
 # SFSOD - MIP
 
-Methods for “Simultaneous Feature Selection and Outlier Detection with Optimality Guarantees” (by L. Insolia, A. Kenney, F. Chiaromonte and G. Felici)
+Methods for: Insolia, L., Kenney, A., Chiaromonte, F., Felici, G. _Simultaneous feature selection and outlier detection with optimality guarantees_. Biometrics. 2021. [To appear](https://onlinelibrary.wiley.com/doi/10.1111/biom.13553?af=R) 
 
 
 The project contains the following folders:
@@ -39,7 +39,7 @@ The project contains the following folders:
 		
 		- est_prel.jl: provides estimates for other existing methods
 
-- results: contains our simulation and application results, as well as the code to reproduce our Figures and Tables (see inside those folders)
+- results.zip: contains our simulation and application results, as well as the code to reproduce our Figures and Tables (see inside those folders)
 
 	- simulation
 	
@@ -49,7 +49,7 @@ The following set of (empty) folders can be useful to automatically save/load si
 
 - output: default path to save output results (betas, phi, etc.)
 
-- tuning: default path to save intermediate tuning results for each problem solved by our MIP (cross validation and/or information criteria)
+- output/tuning: default path to save intermediate tuning results for each problem solved by our MIP (cross validation and/or information criteria)
 
 - LOG: default path to save log files for various jobs
 

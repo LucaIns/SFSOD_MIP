@@ -1,0 +1,24 @@
+#PBS -l nodes=1:ppn=24
+#PBS -l feature=rhel7
+#PBS -l walltime=40:00:00
+#PBS -A open
+#PBS -o YOUR_PATH/LOG/${T}-${k_n}-${seed}.log
+#PBS -j oe
+#PBS -l mem=100gb
+cd YOUR_PATH/CODE/
+
+echo " "
+echo " "
+echo "Job started on `hostname` at `date`"
+echo " "
+
+module use /gpfs/group/dml129/default/sw/modules
+module load gurobi/8.1.1
+module load r/3.6.1
+module load gcc/7.3.1
+module load git
+./mainApp.jl $T $k_n $seed
+
+echo " "
+echo "Job Ended at `date`"
+echo " "
