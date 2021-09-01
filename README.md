@@ -9,7 +9,7 @@ The project contains the following folders:
 	
 	Relevant files for the simulation study are:
 	
-		- juliaMIP_rob.pbs: used to send jobs tot the HPC through the sumbit.py script and other options for the cluster in use 
+		- juliaMIP_rob.pbs: used to send jobs to the HPC through the sumbit.py script and other options for the cluster in use 
 		
 		- sumbit.py: reads the options inside file.csv related to the simulation structure
 		
@@ -21,7 +21,7 @@ The project contains the following folders:
 
 	Relevant files for the our application include (data are publicly available but access should be requested as described in our manuscript due to sensible information):
 		
-		- juliaMIPapp_rob.pbs: used to send jobs tot the HPC through the sumbitApp.py script and other options for the cluster in use
+		- juliaMIPapp_rob.pbs: used to send jobs to the HPC through the sumbitApp.py script and other options for the cluster in use
 		
 		- sumbit.py: reads the options inside fileApp.csv related to the simulation structure
 		
